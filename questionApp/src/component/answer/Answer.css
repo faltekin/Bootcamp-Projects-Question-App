@@ -1,0 +1,21 @@
+.answers {
+  visibility: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+  
+.answers button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+  
+.hidden {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
